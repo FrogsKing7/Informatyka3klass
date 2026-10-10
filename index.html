@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Календарно-тематичне планування з інформатики для 3 класу">
+  <title>Інформатика 3 клас | 2026–2027</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Освітній заклад UA RADIANCE • філія м. Бухарест</p>
+      <p class="year">2026 / 2027</p>
+      <h1>Інформатика<br><span>3 клас</span></h1>
+      <p class="lead">Календарно-тематичне планування на 2026/2027 навчальний рік</p>
+      <div class="meta"><span>І семестр</span><span>15 уроків</span><span>Вересень — грудень 2026</span></div>
+    </div>
+    <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+  </header>
+
+  <main class="wrap">
+    <section class="intro" aria-labelledby="about-title">
+      <div>
+        <p class="section-kicker">Навчальний маршрут</p>
+        <h2 id="about-title">План занять</h2>
+      </div>
+      <p>Оберіть розділ або введіть слово, щоб швидко знайти тему уроку, очікуваний результат чи домашнє завдання.</p>
+    </section>
+
+    <section class="route" aria-label="Структура семестру">
+      <div><span>01</span><b>Інформація</b><small>9 уроків</small></div>
+      <div><span>02</span><b>Цифрова безпека</b><small>2 уроки</small></div>
+      <div><span>03</span><b>Робота з текстом</b><small>4 уроки</small></div>
+    </section>
+
+    <section class="controls" aria-label="Пошук і фільтри">
+      <label class="search-label" for="search">Пошук уроку</label>
+      <input id="search" type="search" placeholder="Наприклад: браузер, текст, безпека">
+      <div id="filters" class="filters" aria-label="Розділи курсу"></div>
+    </section>
+
+    <section class="summary" aria-live="polite"><strong id="count">15</strong> уроків у добірці</section>
+    <section id="lessons" class="lessons" aria-label="Перелік уроків"></section>
+  </main>
+
+  <dialog id="lesson-dialog" class="lesson-dialog" aria-labelledby="dialog-title">
+    <article>
+      <button id="close-dialog" class="close-dialog" type="button" aria-label="Закрити">×</button>
+      <p id="dialog-label" class="dialog-label"></p>
+      <h2 id="dialog-title"></h2>
+      <dl class="lesson-details">
+        <div><dt>Дата</dt><dd id="dialog-date"></dd></div>
+        <div><dt>Очікуваний результат</dt><dd id="dialog-result"></dd></div>
+        <div><dt>Домашнє завдання</dt><dd id="dialog-homework"></dd></div>
+      </dl>
+    </article>
+  </dialog>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>Інформатика, 3 клас • 2026/2027 навчальний рік</p>
+      <p>Учитель: Кучер Дар’я Анатоліївна</p>
+    </div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
